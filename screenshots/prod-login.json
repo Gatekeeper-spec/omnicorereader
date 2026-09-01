@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8081/login",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "OmniReader",
+      "hasCanvas": false,
+      "bodyTextLen": 245,
+      "bodyTextHash": "4e9e68938b79be7f551b6fd748b8c69cee556a250a65c3f941d45dcf09d54c0b",
+      "bodyTextPrefix": "OmniReader “Ler é sonhar pela mão de outrem.” FERNANDO PESSOA Bi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod-login.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "OmniReader",
+      "hasCanvas": false,
+      "bodyTextLen": 139,
+      "bodyTextHash": "e3173ba7fe48a46988796493bee2178a2905c50424cbfb0e400c5606b45259ce",
+      "bodyTextPrefix": "OmniReader Entrar Sua estante, seus clubes, seu ritmo. Continuar",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod-login-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/prod-login.json"
+}

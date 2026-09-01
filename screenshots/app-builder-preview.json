@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "OmniReader",
+      "hasCanvas": false,
+      "bodyTextLen": 1037,
+      "bodyTextHash": "c6027c15aa6d71271f57cdd8a5d2f7c523e5e92017ff5a3760fc2152b56a9e9a",
+      "bodyTextPrefix": "OmniReader Entrar CLUBE DO LIVRO · TRACKER · LEITOR A estante qu",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "OmniReader",
+      "hasCanvas": false,
+      "bodyTextLen": 1037,
+      "bodyTextHash": "c6027c15aa6d71271f57cdd8a5d2f7c523e5e92017ff5a3760fc2152b56a9e9a",
+      "bodyTextPrefix": "OmniReader Entrar CLUBE DO LIVRO · TRACKER · LEITOR A estante qu",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
