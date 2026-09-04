@@ -195,11 +195,17 @@ export default defineConfig(({ command, isPreview }) => ({
     ...(command === "build" || isPreview
       ? [
           nitro({
-  preset: "vercel",
-  serverDir: "./server",
-  noExternals: ["tslib"],
-  traceDeps: ["tslib*"],
-}),
+            preset: "vercel",
+            // Auto-registers server/middleware/* (the PWA install page +
+            // manifest + head-tag middleware). Nitro v3 defaults serverDir to
+            // false, so removing this silently unwires /?install=1 on deploys.
+            serverDir: "./server",
+            // Radix chunks import `tslib` as an external. On Vercel the traced
+            // copy is not always resolvable from `_libs/*.mjs`, which 500s every
+            // request. Bundle it instead.
+            noExternals: ["tslib"],
+            traceDeps: ["tslib*"],
+          }),
         ]
       : []),
     viteReact(),
