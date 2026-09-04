@@ -1,1 +1,0 @@
-import{t as e}from"./react-DK-MTtD8.js";import{t}from"./jsx-runtime-B0aL3khL.js";import{t as n}from"./useNavigate-PX8bvwuF.js";e();var r=t(),i=`/login`;function a({to:e=i}){return(0,r.jsx)(n,{to:e})}export{a as t};
